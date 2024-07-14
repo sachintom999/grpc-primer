@@ -1,0 +1,23 @@
+{
+  "name": "grpc-primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch && npm run dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/protobufjs": "^6.0.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.11",
+    "@grpc/proto-loader": "^0.7.13",
+    "protobufjs": "^7.3.2"
+  }
+}
